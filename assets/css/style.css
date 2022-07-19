@@ -6,77 +6,85 @@ body    {
 
 .sectionleft    {
     width: 30%;
+    height: 2000px;
     display: inline-block;
     background-color: rgb(39, 81, 188);
     vertical-align: top;
     color: white;
-    font-weight: 500;
+    font-weight: 300;
+
 }
 
-.imagenyo {
-    display: inline-block;
+.imagenyo   {
+    text-align: center;
 }
 
 .imagenyo img   {
     width: 400px;
     border-radius:200px;
-    margin: 150px 0 180px 170px;
+    margin: 180px 0 180px 0;
 }
 
 .sectionleft h3 {
     font-size: 30px;
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
+    font-weight: 500;
 }
 
 .sectionleft li {
     font-size: 20px;
-    padding: 30px 0 0 180px;
+    padding: 30px 0 0 100px;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 .iconcorreo     {
-    width: 20%;
     padding-top: 65px;  
 }
 
+.iconcorreo i {
+    display: inline-block;
+}
+
 .icontelefono      {
-    width: 20%;
     padding-top: 65px; 
 }
 
 .iconlinkedin   {
-    width: 20%;
     padding-top: 65px; 
 }
 
 .icontext {
+    font-size: 23px;
     display: inline-block;
     line-height: 30px;
     vertical-align: middle;
-    width: 0%;
+    padding-left: 25px;
+}
+
+.educations i {
+    display: inline-block;
+}
+
+.iconeducation  {
+    padding-top: 65px; 
+}
+
+.education  {
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: middle;
     padding-left: 25px;
 }
 
 
-
-
-
-
-
-
-
-
-
 .sectionright   {
     width: 50%;
+    height: 2000px;
     display: inline-block;
-    background-color: white;
-}
+    background-color: rgb(207, 213, 119);
 
-.sectionright i {
-    font-size: 30px;
-    color: rgb(39, 81, 188) ;
 }
 
 .sectionright h1 {
@@ -97,11 +105,19 @@ body    {
 .parrafo {
     font-size: 30px;
     font-weight: 300;
-    padding-top: 50px;
-    padding: 60px 0  0 200px;
+    padding: 60px 0  400px 200px;
     color: rgb(51, 50, 50);
-    text-align: justify;
+    text-align: justify; 
 }
+
+.iconmarcador i {
+    font-size: 30px;
+    color: rgb(39, 81, 188);
+    padding-top: 3%;
+    display: inline-block;
+
+}
+
 
 .iconmarcador     {
     padding-top: 65px;
